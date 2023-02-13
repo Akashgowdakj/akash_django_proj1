@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="{%static 'css/my_style.css'%}">
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form class="" action="index.html" method="post">
+      Name:<input type="text" name="" value="">
+      <br><br>
+      DOB:<input type="text" name="" value="">
+      <br>
+      Gender:<input type="text" name="" value="">
+      <br><br>
+      Email:<input type="text" name="" value="">
+      <br><br>
+      Phone Number:<input type="text" name="" value="">
+      <br>
+      <button type="button" name="button">Submit</button>
+      <br>
+    </form>
+  <br>
+  <h2>{{insert_me}}</h2>
+  <img src="{% static 'images/nature.jpeg'%}" alt="Sorry image could not found">
+
+  </body>
+</html>
